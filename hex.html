@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Color Flipper || Simple</title>
+</head>
+<body>
+    <nav class="bg-white sm:px-16 md:px-32 lg:px-64 xl:px-96 shadow-lg">
+        <div class="nav-center flex justify-between px-8 py-2 items-center  tracking-widest font-medium">
+            <h4 class="text-sky-400 ">Color Flipper</h4>
+            <ul class="nav-links flex gap-4">
+                <li>
+                    <a class="hover:text-sky-400 transition" href="index.html">Simple</a>
+                </li>
+                <li>
+                    <a class="hover:text-sky-400 transition" href="hex.html">Hex</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main class=" h-[93vh] flex justify-center items-center">
+        <div class="box flex flex-col items-center">
+            <h2 class="bg-gray-800 text-white px-8 py-4 font-medium rounded-md tracking-widest">Background Color : <span class="color text-sky-400 uppercase font-medium">White</span></h2>
+            <button class="btn btn-hero bg-white tracking-widest uppercase text-xs font-bold border border-2 border-gray-800 rounded-md my-4 py-1 px-3 hover:bg-gray-800 hover:text-white transition duration-300" id="btn">Click Me</button>
+        </div>
+    </main>
+
+    <script src="hex.js"></script>
+</body>
+</html>
